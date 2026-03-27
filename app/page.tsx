@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import websitesData from "@/data/websites.json";
 
 export const metadata: Metadata = {
   title: "Website List",
@@ -6,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const websites: string[] = ["https://jakub.kr/"];
+  const websites: string[] = websitesData.websites;
 
   return (
     <main className="min-h-screen bg-slate-50 p-10 text-slate-900">
