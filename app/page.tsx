@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-slate-50 p-10 text-slate-900">
-      <h1 className="text-2xl font-semibold">Website List</h1>
+      <h1 className="text-2xl font-semibold">List of Personal Websites</h1>
       <ul className="mt-4 space-y-2">
         {websites.length === 0 ? (
           <li className="text-sm text-slate-600">No websites yet.</li>
